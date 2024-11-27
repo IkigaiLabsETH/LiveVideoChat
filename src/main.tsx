@@ -12,8 +12,8 @@ const completionEndpoint = import.meta.env?.VITE_COMPLETION_ENDPOINT || 'http://
 
 import './styles.css'
 
-const AGENT_ID = 'ruby' // this comes from the agentId output from running the Eliza framework, it likely will be in uuid format, i.e. '123e4567-e89b-12d3-a456-426614174000'
-const SIMLI_FACE_ID = '13fbb3e1-4489-4199-ad57-91be4a2dd38b'
+const AGENT_ID = '76ba1c9e-4db7-0279-857e-10e170da1452 ' // this comes from the agentId output from running the Eliza framework, it likely will be in uuid format, i.e. '123e4567-e89b-12d3-a456-426614174000'
+const SIMLI_FACE_ID = 'fc15b0ae-b88e-4e42-b28c-eeb0f18f98ec'
 const ELEVENLABS_VOICE_ID = '21m00Tcm4TlvDq8ikWAM'
 
 const simliClient = new SimliClient()
